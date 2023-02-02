@@ -116,6 +116,8 @@ const ChartComponent = () => {
       <div id="wrapper">
         <div id="chart-line2">
           <ReactApexChart
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
             options={options}
             series={[
               {
@@ -129,6 +131,8 @@ const ChartComponent = () => {
         </div>
         <div id="chart-line">
           <ReactApexChart
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
             options={optionsLine}
             series={[
               {
